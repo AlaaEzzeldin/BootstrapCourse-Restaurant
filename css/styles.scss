@@ -72,15 +72,19 @@ body{
     z-index: 1;
 }
 
+
+.modal-body{
+    color: black;
+    background-color: $background-pale ;
+    
+}
 .modal-header {
     background:$background-dark;
-    color: floralwhite;
-    .Modal_Button_close{
+    .modal-title{
+        color: floralwhite;
+    }
+    .close{
         color: floralwhite;
 
 }
-.modal-body{
-    color: black;
-    background-color: $background-pale 
-    
 }
